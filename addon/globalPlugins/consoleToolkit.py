@@ -55,7 +55,7 @@ import wx
 
 winmm = ctypes.windll.winmm
 
-
+# you have to fix the debug file location instade of this location
 debug = False
 if debug:
     import threading
